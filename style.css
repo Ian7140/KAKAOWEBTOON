@@ -19,3 +19,7 @@ body{
 #video1{
     display: flex;
 }
+
+#first_text h1{
+    font-size: 3em;
+}
