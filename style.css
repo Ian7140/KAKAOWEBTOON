@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Inter:wght@400;700&family=Jua&display=swap');
 
 
-nav{
-    
-}
 body{
     margin : 0;
     height: 5000px;
     font-family: 'Inter' , sans-serif;
     background : black;
 }
-section{
+#header .logo{
+    height :70px;
+    width : 200px;
+}
+#firstpage{
     height: 100vh;
     background : url(file:///Users/rlawnals/Desktop/KAKAOWEBTOON/IMG_1293.jpg);
 }
-section:before{
+#firstpage:before{
     content: '';
     background : linear-gradient(to top, black , transparent);
     position: absolute;
