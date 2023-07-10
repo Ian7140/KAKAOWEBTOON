@@ -1,0 +1,29 @@
+#firstpage h4{
+    color : white;
+    font-size : 2.5em;
+    font-weight: 300;
+    position : absolute;
+    top : 370px;
+    left : 100px;
+}
+
+#firstpage{
+    height: 100vh;
+    background : url(file:///Users/rlawnals/Desktop/KAKAOWEBTOON/IMG_1293.jpg);
+}
+#firstpage:before{
+    content: '';
+    background : linear-gradient(to top, black , transparent);
+    position: absolute;
+    bottom : 0;
+    height: 250%;
+    width : 100%; 
+}
+
+#firstpage h1{
+    color : white; 
+    font-size: 5em;
+    position: absolute;
+    top : 250px;
+    left : 100px;
+}

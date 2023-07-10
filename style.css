@@ -1,98 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Inter:wght@400;700&family=Jua&display=swap');
 
-
 body{
     margin : 0;
     height: 5000px;
     font-family: 'Inter' , sans-serif;
     background : black;
 }
-#header .logo{
-    height :70px;
-    width : 200px;
-}
-#firstpage{
-    height: 100vh;
-    background : url(file:///Users/rlawnals/Desktop/KAKAOWEBTOON/IMG_1293.jpg);
-}
-#firstpage:before{
-    content: '';
-    background : linear-gradient(to top, black , transparent);
-    position: absolute;
-    bottom : 0;
-    height: 250%;
-    width : 100%; 
+#point_text{
+    color : #FFD200;
 }
 
-h1{
-    color : white; 
-    font-size: 5em;
-    position: absolute;
-    top : 250px;
-    left : 100px;
-}
-
-h4{
+#section1{
     color : white;
-    font-size : 2.5em;
-    font-weight: 300;
-    position : absolute;
-    top : 370px;
-    left : 100px;
+    margin-left: 80px;
+    margin-top: 200px;
 }
 
-h5{
-    color : white;
-    font-size: 1.3em;
-    font-weight: 280;
-    position: absolute;
-    left : 100px;
-    top : 490px;
-}
-
-#email_input input {
-    color : white;
-    top : 560px;
-    padding-left: 10px;
+#video1{
     display: flex;
-    position: absolute;
-    left : 100px;
-    height : 52.5px;
-    width : 600px;
-    cursor: text;
-    border-radius: 0.3rem;
-    font-size: 1em;
-    border: 0.5px solid rgb(200, 200, 200);
-    background-color: rgba( 241, 241, 241, 0.097);
-}
-
-#email_input input::placeholder{
-    color:rgb(195, 195, 195);
-}
-
-#email_input button{
-    padding : 10px;
-    margin-left: 10px;
-    top : 560px;
-    font-size: 1.4em;
-    position: absolute;
-    left : 710px;
-    height : 56px;
-    width : 100px;
-    cursor: pointer;
-    background-color: rgb(229, 9, 20);
-    color: rgb(255,255,255);
-    border-radius: 0.3rem;
-    border : 0;
-    align-items: center;
-    transition: all 0.3s;
-}
-
-#email_input button:hover{
-    background-color : rgb(193,17,25);
-}
-
-#email_input input:focus{
-    outline: none;
-    border-color: white;
 }
