@@ -28,6 +28,7 @@ iframe{
     height: 70vh;
     width: 121vh;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 
@@ -36,4 +37,10 @@ iframe{
     margin-top: 100px;
     text-align: center;
     color:white;
+}
+
+
+#link{
+    cursor: pointer;
+    text-decoration-line: none;
 }
