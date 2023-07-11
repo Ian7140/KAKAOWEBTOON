@@ -1,29 +1,46 @@
-#firstpage h4{
-    color : white;
-    font-size : 2.5em;
+/* 대응할 화면 크기를 기준으로 미디어 쿼리를 추가합니다. */
+@media (max-width: 768px) {
+    #firstpage h4 {
+        font-size: 1.8em;
+        top: 270px;
+        left: 20px;
+    }
+
+    #firstpage h1 {
+        font-size: 3.5em;
+        top: 180px;
+        left: 20px;
+    }
+}
+
+/* 기본 스타일 */
+#firstpage h4 {
+    color: white;
+    font-size: 2.5em;
     font-weight: 300;
-    position : absolute;
-    top : 370px;
-    left : 100px;
-}
-
-#firstpage{
-    height: 100vh;
-    background : url(./../image/IMG_1293.jpg);
-}
-#firstpage:before{
-    content: '';
-    background : linear-gradient(to top, black , transparent);
     position: absolute;
-    bottom : 0;
-    height: 250%;
-    width : 100%; 
+    top: 370px;
+    left: 100px;
 }
 
-#firstpage h1{
-    color : white; 
+#firstpage {
+    height: 100vh;
+    background: url(./../image/IMG_1293.jpg);
+}
+
+#firstpage:before {
+    content: '';
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    bottom: 0;
+    height: 250%;
+    width: 100%;
+}
+
+#firstpage h1 {
+    color: white;
     font-size: 5em;
     position: absolute;
-    top : 250px;
-    left : 100px;
+    top: 250px;
+    left: 100px;
 }

@@ -1,55 +1,79 @@
-#email h5{
-    color : white;
+/* 대응할 화면 크기를 기준으로 미디어 쿼리를 추가합니다. */
+@media (max-width: 768px) {
+    #email h5 {
+        font-size: 1em;
+        left: 20px;
+        top: 420px;
+    }
+
+    #email_input input {
+        top: 490px;
+        left: 20px;
+        width: calc(100% - 40px);
+        font-size: 0.9em;
+    }
+
+    #email_input button {
+        top: 560px;
+        left: 20px;
+        width: calc(100% - 40px);
+        font-size: 1.2em;
+    }
+}
+
+/* 기본 스타일 */
+#email h5 {
+    color: white;
     font-size: 1.3em;
     font-weight: 280;
     position: absolute;
-    left : 100px;
-    top : 490px;
+    left: 100px;
+    top: 490px;
 }
 
 #email_input input {
-    color : white;
-    top : 560px;
+    color: white;
+    top: 560px;
     padding-left: 10px;
     display: flex;
     position: absolute;
-    left : 100px;
-    height : 52.5px;
-    width : 600px;
+    left: 100px;
+    height: 52.5px;
+    width: 600px;
     cursor: text;
     border-radius: 0.3rem;
     font-size: 1em;
     border: 0.5px solid rgb(200, 200, 200);
-    background-color: rgba( 241, 241, 241, 0.097);
+    background-color: rgba(241, 241, 241, 0.097);
 }
 
-#email_input input::placeholder{
-    color:rgb(195, 195, 195);
+#email_input input::placeholder {
+    color: rgb(195, 195, 195);
 }
 
-#email_input button{
-    padding : 10px;
+#email_input button {
+    padding: 10px;
     margin-left: 10px;
-    top : 560px;
+    top: 560px;
     font-size: 1.4em;
     position: absolute;
-    left : 720px;
-    height : 56px;
-    width : 100px;
+    left: 720px;
+    height: 56px;
+    width: 100px;
     cursor: pointer;
     background-color: #FFD200;
     color: black;
     border-radius: 0.3rem;
-    border : 0;
+    border: 0;
     align-items: center;
     transition: all 0.3s;
 }
 
-#email_input button:hover{
-    background-color : #dbb50a;
+#email_input button:hover {
+    background-color: #dbb50a;
 }
 
-#email_input input:focus{
+#email_input input:focus {
     outline: none;
     border-color: white;
 }

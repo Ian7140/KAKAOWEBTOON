@@ -1,21 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Inter:wght@400;700&family=Jua&display=swap');
+/* 대응할 화면 크기를 기준으로 미디어 쿼리를 추가합니다. */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+    }
 
-body{
-    margin : 0;
-    height: 5000px;
-    font-family: 'Inter' , sans-serif;
-    background : black;
+    iframe {
+        position: static;
+        height: 400px;
+        width: 100%;
+    }
 }
 
-iframe{
-    position : absolute;
-    left : 0;
+/* 기본 스타일 */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Inter:wght@400;700&family=Jua&display=swap');
+
+body {
+    margin: 0;
+    height: 5000px;
+    font-family: 'Inter', sans-serif;
+    background: black;
+}
+
+iframe {
+    position: absolute;
+    left: 0;
     right: 0;
-    margin : auto;
+    margin: auto;
     height: 70vh;
     width: 121vh;
 }
 
-#text1{
-    color:white;
+#text1 {
+    color: white;
 }
