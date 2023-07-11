@@ -18,7 +18,7 @@ iframe{
 
 #text1{
     position:absolute;
-    color : white;
+    color : #fff;
     font-size: 3em;
     transform: translate(-12% , -460%);
 }
