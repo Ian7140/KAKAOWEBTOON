@@ -17,8 +17,5 @@ iframe{
 }
 
 #text1{
-    position:absolute;
-    color : #fff;
-    font-size: 3em;
-    transform: translate(-12% , -460%);
+    color:white;
 }

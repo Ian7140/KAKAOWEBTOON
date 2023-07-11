@@ -9,7 +9,7 @@
 
 #firstpage{
     height: 100vh;
-    background : url(file:///Users/rlawnals/Desktop/KAKAOWEBTOON/IMG_1293.jpg);
+    background : url(./../image/IMG_1293.jpg);
 }
 #firstpage:before{
     content: '';
