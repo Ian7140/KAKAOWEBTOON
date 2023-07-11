@@ -34,13 +34,45 @@ iframe{
 
 #text1{
     font-size: 4em;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
     color:white;
 }
 
-
-#link{
-    cursor: pointer;
+#login_click{
     text-decoration-line: none;
+}
+#login{
+    width : 68.34px;
+    height: 32px;
+    margin : 20px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    color : black;
+    background-color: #FFD200;
+    border-radius: 0.25rem;
+    border: 0;
+    align-items: center;
+    margin-left: 1390px;
+}
+
+#login h2{
+    font-size: 3em;
+    color : white;
+}
+
+#login:hover{
+    transition: all 0.3s;
+    background-color: #dbb50a;
+    cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color : white;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 8px;
 }

@@ -1,0 +1,27 @@
+
+#link{
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+#history{
+    color : white;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.hit{
+    margin-top: 250px;
+}
+
+#history a{
+    color : white;
+    text-decoration-line: none;
+    transition: all 0.3s;
+}
+
+#history a:hover{
+    color : #FFD200;
+}

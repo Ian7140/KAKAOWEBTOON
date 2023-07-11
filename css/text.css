@@ -1,3 +1,18 @@
 #point_text{
     color : #FFD200;
 }
+.newinfo{
+    text-align: center;
+}
+.newinfo h3{
+    margin-top: 300px;
+    font-size: 2em;
+    margin-bottom: -3px;
+}
+
+.newinfo h1{
+    font-size: 5em;
+    margin-top: 5px;
+    color : white;
+}
+
