@@ -21,15 +21,19 @@ body {
     background: black;
 }
 
-iframe {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
+
+iframe{
+    display: flex;
+    align-items: center;
     height: 70vh;
     width: 121vh;
+    margin: 0 auto;
 }
 
-#text1 {
-    color: white;
+
+#text1{
+    font-size: 4em;
+    margin-top: 100px;
+    text-align: center;
+    color:white;
 }
