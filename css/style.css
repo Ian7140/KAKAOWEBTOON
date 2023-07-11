@@ -1,11 +1,26 @@
+/* 대응할 화면 크기를 기준으로 미디어 쿼리를 추가합니다. */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+    }
+
+    iframe {
+        position: static;
+        height: 400px;
+        width: 100%;
+    }
+}
+
+/* 기본 스타일 */
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Inter:wght@400;700&family=Jua&display=swap');
 
-body{
-    margin : 0;
+body {
+    margin: 0;
     height: 5000px;
-    font-family: 'Inter' , sans-serif;
-    background : black;
+    font-family: 'Inter', sans-serif;
+    background: black;
 }
+
 
 iframe{
     display: flex;
@@ -14,6 +29,7 @@ iframe{
     width: 121vh;
     margin: 0 auto;
 }
+
 
 #text1{
     font-size: 4em;
