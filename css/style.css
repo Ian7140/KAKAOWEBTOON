@@ -75,6 +75,34 @@ iframe{
     transition: all 0.5s;
 }
 
+#platform{
+    width: 600px;
+}
 
+#platform a{
+    text-align: left;
+}
+
+.second_section{
+    display: flex;
+}
+
+#competition{
+    margin-right: 120px;
+}
+
+#global{
+    width: 600px;
+}
+
+#global p,h6{
+    text-align: right;
+}
+
+#what_kakao_have_done{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
