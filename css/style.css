@@ -1,9 +1,5 @@
-/* 대응할 화면 크기를 기준으로 미디어 쿼리를 추가합니다. */
-@media (max-width: 768px) {
-    body {
-        height: auto;
-    }
 
+@media (max-width: 768px) {
     iframe {
         position: static;
         height: 400px;
@@ -11,7 +7,7 @@
     }
 }
 
-/* 기본 스타일 */
+
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Inter:wght@400;700&family=Jua&display=swap');
 
 body {
@@ -39,35 +35,6 @@ iframe{
     color:white;
 }
 
-#login_click{
-    text-decoration-line: none;
-}
-#login{
-    width : 68.34px;
-    height: 32px;
-    margin : 20px;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    color : black;
-    background-color: #FFD200;
-    border-radius: 0.25rem;
-    border: 0;
-    align-items: center;
-    margin-left: 1390px;
-}
-
-#login h2{
-    font-size: 3em;
-    color : white;
-}
-
-#login:hover{
-    transition: all 0.3s;
-    background-color: #dbb50a;
-    cursor: pointer;
-}
-
 .copyright{
     display: flex;
     justify-content: center;
@@ -76,3 +43,29 @@ iframe{
     font-weight: 500;
     margin-top: 8px;
 }
+
+.maintitle{
+    color : white;
+    font-size: 3em;
+}
+
+.subtext{
+    color: white;
+    font-size: 2em;
+    opacity: 0.4;
+    font-weight: 300;
+    margin-top: -40px;
+}
+
+.first{
+    margin-left: 280px;
+    font-weight: 300;
+    
+}
+
+.first:hover{
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+
