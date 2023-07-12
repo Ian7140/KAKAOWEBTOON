@@ -15,6 +15,7 @@ body {
     height: 5000px;
     font-family: 'Inter', sans-serif;
     background: black;
+    height: auto;
 }
 
 
@@ -60,7 +61,7 @@ iframe{
 .first{
     margin-left: 280px;
     font-weight: 300;
-    
+
 }
 
 .first:hover{
