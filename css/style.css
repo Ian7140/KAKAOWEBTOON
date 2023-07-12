@@ -63,16 +63,11 @@ iframe{
     text-align: center;
     font-weight: 300;
     cursor: pointer;
-
 }
+
 
 .first a{
     text-decoration-line: none;
-}
-
-.first:hover{
-    opacity: 0.7;
-    transition: all 0.5s;
 }
 
 #platform{
