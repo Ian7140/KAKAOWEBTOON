@@ -100,4 +100,8 @@ iframe{
     align-items: center;
 }
 
+.sub_picture img{
+    object-fit: cover;
+}
+
 
