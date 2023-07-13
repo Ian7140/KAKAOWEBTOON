@@ -59,6 +59,18 @@ iframe{
     margin-top: -40px;
 }
 
+#platform h6{
+    text-align: left;
+}
+
+#movie h6{
+    text-align: center;
+}
+
+#competition h6{
+    text-align: center;
+}
+
 .first{
     text-align: center;
     font-weight: 300;
@@ -103,5 +115,24 @@ iframe{
 .sub_picture img{
     object-fit: cover;
 }
+
+#global{
+    background-image: url("./../image/Astansia.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first:hover{
+    transition: all 0.3s;
+    opacity: 0.6;
+}
+
+#platform{
+    background-image: url("./../image/daumlogo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 130% 50%;
+}
+
 
 
